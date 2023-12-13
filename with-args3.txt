@@ -1,0 +1,11 @@
+class Fg
+def initialize (name,age)
+@name = name
+@age = age
+end
+def dog
+puts "bark"
+end
+end
+fg = Fg.new("mathi",39)
+fg.dog
